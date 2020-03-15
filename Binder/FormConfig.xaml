@@ -1,0 +1,20 @@
+﻿<Window x:Class="Binder.FormConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="请先设置" Height="259.747" Width="334.328">
+    <Grid>
+        <Label Content="版权：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="banquan" HorizontalAlignment="Left" Height="23" Margin="61,10,0,0" TextWrapping="Wrap" Text="这是版权信息" VerticalAlignment="Top" Width="244.373"/>
+        <Label Content="商标：" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="shangbiao" HorizontalAlignment="Left" Height="23" Margin="61,40,0,0" TextWrapping="Wrap" Text="这是商标信息" VerticalAlignment="Top" Width="244.373"/>
+        <Label Content="产品：" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="chanpin" HorizontalAlignment="Left" Height="23" Margin="61,70,0,0" TextWrapping="Wrap" Text="这是产品信息" VerticalAlignment="Top" Width="244.373"/>
+        <Label Content="公司：" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="gongsi" HorizontalAlignment="Left" Height="23" Margin="61,100,0,0" TextWrapping="Wrap" Text="这是公司信息" VerticalAlignment="Top" Width="244.373"/>
+        <Label Content="说明：" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="shuoming" HorizontalAlignment="Left" Height="23" Margin="61,130,0,0" TextWrapping="Wrap" Text="这是说明信息" VerticalAlignment="Top" Width="244.373"/>
+        <Label Content="标题：" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="biaoti" HorizontalAlignment="Left" Height="23" Margin="61,160,0,0" TextWrapping="Wrap" Text="这是标题信息" VerticalAlignment="Top" Width="244.373"/>
+        <Button Content="确定" HorizontalAlignment="Left" Margin="19,192,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+    </Grid>
+</Window>
